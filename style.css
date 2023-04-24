@@ -7,7 +7,7 @@
     background-color:white;
     width: 18vw;
     font-family: sans-serif;
-    height: 100vh;
+    height: 100%;
 }
 .sidebar nav{
     padding: 45px 0px;
@@ -25,7 +25,7 @@
 }
 .main{
     background-color: whitesmoke;
-    width: 90vw;
+    width: 100%;
 }
 .container{
     height:100%;
@@ -34,8 +34,8 @@
 }
 .infocontainer{
    
-    height: 68vh;
-    width: 70vw;
+    height: 100%;
+    width: 100%;
     margin: 144 px auto;
     display: flex;
     justify-content: space-around;
