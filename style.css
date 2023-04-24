@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.sidebar{
+     color: black;
+    background-color:white;
+    width: 18vw;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px 0px;
+}
+.sidebar nav li{
+      list-style: none;
+    font-size: 30px;
+    padding: 32px ;
+}
+
+.sidebar nav li a{
+    
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: whitesmoke;
+    width: 90vw;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+   
+    height: 68vh;
+    width: 70vw;
+    margin: 144 px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    padding-left: 90px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hello{
+    font-size: 55px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size:40px;
+}
+.moreabout{
+    font-size:15px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+         padding:  9px 14px;
+         border-radius: 22px;
+         color: white;
+         background-color: rgb(31, 91, 202);
+         font-weight: bold;
+         font-size: 21px;
+         margin: 3px;
+         cursor:pointer;
+}
+.buttons button:hover{
+    color: black;
+    background-color: white;
+}
+.devpic img{
+    height: 58vh;
+}
